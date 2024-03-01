@@ -71,6 +71,7 @@ function App() {
 
       <div className="response-container">
         <div className="response">
+          <h1>Model1's Response</h1>
           {modelResponse1 && (
             <p>
               <b>Model 1 Response:</b> {modelResponse1}
@@ -78,6 +79,7 @@ function App() {
           )}
         </div>
         <div className="response">
+        <h1>Model2's Response</h1>
           {modelResponse2 && (
             <p>
               <b>Model 2 Response:</b> {modelResponse2}
