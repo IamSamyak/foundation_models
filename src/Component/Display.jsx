@@ -8,7 +8,6 @@ function App() {
 
   // Replace with your chosen model and API endpoint
   const modelURL1 = "https://api-inference.huggingface.co/models/gpt2";
-  const modelURL2 = "https://api-inference.huggingface.co/models/distilbert-base-uncased";
   const apiKey = "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"; // Replace with your Hugging Face API key
 
   const handleSubmit = async (event) => {
@@ -56,7 +55,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Hugging Face Model Interface</h1>
+      <h1>Ask foundation models</h1>
       <form onSubmit={handleSubmit}>
         <label htmlFor="userInput">Enter your text:</label>
         <input
