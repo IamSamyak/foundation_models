@@ -74,7 +74,7 @@ function App() {
           <h1>Model1's Response</h1>
           {modelResponse1 && (
             <p>
-              <b>Model 1 Response:</b> {modelResponse1}
+              {modelResponse1}
             </p>
           )}
         </div>
@@ -82,7 +82,7 @@ function App() {
         <h1>Model2's Response</h1>
           {modelResponse2 && (
             <p>
-              <b>Model 2 Response:</b> {modelResponse2}
+              {modelResponse2}
             </p>
           )}
         </div>
